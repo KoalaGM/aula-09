@@ -15,3 +15,7 @@ resposta = ''
 while resposta != 'n':
     nome = input('Informe o nome: ')
     lst_nomes.append(nome)
+
+    resposta = input('Quer continuar? [s/n]: ')
+
+print(f'Os nomes foram {lst_nomes}')
